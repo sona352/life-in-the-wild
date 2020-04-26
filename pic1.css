@@ -1,0 +1,37 @@
+.container
+{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1
+{
+	font-family: fantasy;
+	font-size: 45px;
+	border-bottom: 2px solid green;
+	width: 300px;
+	text-align: center;
+	border-right: 2px solid black;
+	box-shadow: 3px 3px 4px;
+	margin-top: 5px;
+}
+
+body
+{
+	background-image: url("im2.jpg");
+	background-size: cover;
+}
+
+img
+{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover
+{
+	transform: scale(1.1);
+	animation-duration: 0.4s;
+}
